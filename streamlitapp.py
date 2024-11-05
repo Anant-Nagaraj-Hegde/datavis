@@ -38,7 +38,7 @@ template='plotly_dark', # Using a cool dark theme
 size='size' # The size of points based on the size of the group
 )
 fig4.show()
-
+st.plotly_chart(fig4)
 
 
 #5. Box Plot: Distribution of Total Bill by Day (With Color by Time)
