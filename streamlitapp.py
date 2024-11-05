@@ -16,7 +16,7 @@ tips = sns.load_dataset('tips')  # Loading the dataset
 print(tips.head())  # This will show the first 5 rows of the tips dataset
 
 # --- Task 2: Bar Chart ---
-st.subheader("Task 2: Bar Chart")
+st.subheader("Bar Chart")
 #Bar Chart: Average Tip by Day (With Color)
 fig2 = px.bar(
     tips, x='day', y='tip', color='day',
@@ -29,6 +29,7 @@ st.plotly_chart(fig2)
 
 
 #4. Scatter Plot: Total Bill vs. Tip (Color-coded by Gender)
+st.subheader("Scatter Plot")
 fig4 = px.scatter(
 tips, x='total_bill', y='tip', color='sex',
 title='Total Bill vs Tip (Colored by Gender)',
@@ -40,6 +41,7 @@ fig4.show()
 
 
 #5. Box Plot: Distribution of Total Bill by Day (With Color by Time)
+st.subheader("Bar Chart")
 fig5 = px.box(
 tips, x='day', y='total_bill', color='time',
 title='Total Bill Distribution by Day and Time',
@@ -50,6 +52,7 @@ fig5.show()
 
 
 #6. Histogram: Tip Distribution (With Color)
+st.subheader("Histogram")
 fig6 = px.histogram(
 tips, x='tip', color='sex',
 title='Distribution of Tips (Colored by Gender)',
