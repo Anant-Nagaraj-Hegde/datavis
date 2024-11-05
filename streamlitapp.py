@@ -8,8 +8,8 @@ import pandas as pd
 st.title("Plotly and Streamlit Interactive Visualizations")
 
 # Author information
-st.markdown("<h5 style='color: teal;'>Created by:</h6>", unsafe_allow_html=True)
-st.markdown("<p style='color: white;'>1. USN _ FULLNAME </p>", unsafe_allow_html=True)
+st.markdown("<h5 style='color: teal;'>Created by:Anant Nagaraj Hegde</h6>", unsafe_allow_html=True)
+
 
 
 tips = sns.load_dataset('tips')  # Loading the dataset
