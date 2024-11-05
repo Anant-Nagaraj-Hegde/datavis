@@ -41,7 +41,7 @@ fig4.show()
 
 
 #5. Box Plot: Distribution of Total Bill by Day (With Color by Time)
-st.subheader("Bar Chart")
+st.subheader("Box Plot")
 fig5 = px.box(
 tips, x='day', y='total_bill', color='time',
 title='Total Bill Distribution by Day and Time',
