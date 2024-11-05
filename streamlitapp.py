@@ -50,6 +50,7 @@ labels={'total_bill': 'Total Bill ($)', 'day': 'Day'},
 template='ggplot2', # Classic theme for a beautiful look
 )
 fig5.show()
+st.plotly_chart(fig5)
 
 
 #6. Histogram: Tip Distribution (With Color)
@@ -61,5 +62,5 @@ labels={'tip': 'Tip ($)', 'sex': 'Gender'},
 template='plotly_white', # Clean and bright look
 )
 fig6.show()
-
+st.plotly_chart(fig6)
 
