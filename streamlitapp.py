@@ -8,7 +8,7 @@ import pandas as pd
 st.title("Plotly and Streamlit Interactive Visualizations")
 
 # Author information
-st.markdown("<h5 style='color: teal;'>Created by:Anant Nagaraj Hegde</h6>", unsafe_allow_html=True)
+st.markdown("<h5 style='color: teal;'>Created by: Anant Nagaraj Hegde</h6>", unsafe_allow_html=True)
 
 
 
