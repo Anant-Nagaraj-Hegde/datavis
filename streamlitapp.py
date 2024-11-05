@@ -15,6 +15,12 @@ st.markdown("<h5 style='color: teal;'>Created by: Anant Nagaraj Hegde</h6>", uns
 tips = sns.load_dataset('tips')  # Loading the dataset
 print(tips.head())  # This will show the first 5 rows of the tips dataset
 
+
+fig1 = px.bar(tips, x="day", y="tip")
+fig1.show()
+st.plotly_chart(fig1)
+
+
 # --- Task 2: Bar Chart ---
 st.subheader("Bar Chart")
 #Bar Chart: Average Tip by Day (With Color)
